@@ -393,6 +393,8 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #wb_tweeam4Text1 { display:block; margin:0; box-sizing:border-box; width:100%; }
 #wb_team4Image1 { margin:0 0 30px 0; vertical-align:top; }
 #team4Image1 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
+#team4Image1 { box-shadow:; transition:box-shadow 500ms linear 0ms; }
+#team4Image1:hover { box-shadow:5px 5px 5px #16187170; transition:box-shadow 500ms linear 0ms; }
 #wb_team4Image2 { margin:0 0 30px 0; vertical-align:top; }
 #team4Image2 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
 #team4Image2 { box-shadow:; transition:box-shadow 500ms linear 0ms; }
@@ -455,8 +457,12 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 }
 #wb_team4Image3 { margin:0 0 30px 0; vertical-align:top; }
 #team4Image3 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
+#team4Image3 { box-shadow:; transition:box-shadow 500ms linear 0ms; }
+#team4Image3:hover { box-shadow:5px 5px 5px #16187170; transition:box-shadow 500ms linear 0ms; }
 #wb_team4Image4 { margin:0 0 30px 0; vertical-align:top; }
 #team4Image4 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
+#team4Image4 { box-shadow:; transition:box-shadow 500ms linear 0ms; }
+#team4Image4:hover { box-shadow:5px 5px 5px #16187170; transition:box-shadow 500ms linear 0ms; }
 #wb_team4Heading5 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:10px 0 10px 0; text-align:left; }
 #team4Heading5 { color:#969696; font-family:Arial; font-weight:bold; font-style:normal; font-size:27px; margin:0; text-align:left; text-transform:none; }
 #wb_team4Text3 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0 0 20px 0; margin:0; text-align:left; }

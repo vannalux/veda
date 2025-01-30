@@ -33,7 +33,7 @@ $(window).scroll(function()
 {$({countUp:$obj.text()}).animate({countUp:count},{duration:1000,step:function(){$obj.text(Math.floor(this.countUp));},complete:function(){$obj.text(this.countUp);$obj.attr('data-count',0);}});}}
 $(window).scroll(function()
 {countUpfactsJavaScript4();});countUpfactsJavaScript4();function onScrollteam4Heading1()
-{var $obj=$("#wb_team4Heading1");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(true))
+{var $obj=$("#wb_team4Heading1");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
 {$obj.addClass("in-viewport");AnimateCss('wb_team4Heading1','slide-left-in',0,1250);}}
 onScrollteam4Heading1();$(window).scroll(function(event)
 {onScrollteam4Heading1();});});const btnUp={el:document.querySelector('.btn-up'),scrolling:false,show(){if(this.el.classList.contains('btn-up_hide')&&!this.el.classList.contains('btn-up_hiding')){this.el.classList.remove('btn-up_hide');this.el.classList.add('btn-up_hiding');window.setTimeout(()=>{this.el.classList.remove('btn-up_hiding');},300);}},hide(){if(!this.el.classList.contains('btn-up_hide')&&!this.el.classList.contains('btn-up_hiding')){this.el.classList.add('btn-up_hiding');window.setTimeout(()=>{this.el.classList.add('btn-up_hide');this.el.classList.remove('btn-up_hiding');},300);}},addEventListener(){window.addEventListener('scroll',()=>{const scrollY=window.scrollY||document.documentElement.scrollTop;if(this.scrolling&&scrollY>0){return;}
