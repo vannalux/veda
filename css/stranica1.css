@@ -75,7 +75,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 .header13Menu .navbar-link:hover { color:#000000; }
 .header13Menu .navbar-header { color:#FFFFFF; }
 .header13Menu .dropdown-hover > .dropdown-menu { margin-top:-1px  !important; }
-@media (min-width: 800px) {
+@media (min-width: 850px) {
 .header13Menu .navbar-right .dropdown-menu { right:0; left:auto; }
 .header13Menu .navbar-header { float:left; }
 .header13Menu-navbar-collapse { width:auto; border-top:0; box-shadow:none; }
@@ -87,14 +87,14 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 .header13Menu .container > .navbar-header,.header13Menu .container > .header13Menu-navbar-collapse { margin-right:0; margin-left:0; }
 .header13Menu .navbar-nav > .dropdown > a:hover .arrow,.header13Menu .navbar-nav > .dropdown > a:focus .arrow { border-top-color:#000000; border-bottom-color:#000000; }
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 .header13Menu { background-color:#343A40; background-image:none; border:1px solid #FFFFFF; }
 .header13Menu .navbar-nav { margin:0; background-color:#F5F5F5; background-image:none; }
 .header13Menu .navbar-nav .show .dropdown-menu { position:static  !important; transform:translate3d(0px, 0px, 0px)  !important; float:none; width:auto; margin-top:0; background-color:transparent; border:0; box-shadow:none; }
 .header13Menu .navbar-nav .show .dropdown-menu > li > a,.header13Menu .navbar-nav .show .dropdown-menu .dropdown-header { padding:10px 15px 10px 15px; }
 .header13Menu .navbar-nav .show .dropdown-menu > li > a { line-height:20px; }
 }
-@media (min-width: 800px) {
+@media (min-width: 850px) {
 .header13Menu .navbar-nav > li > a { background-color:#343A40; background-image:none; border:1px solid #FFFFFF; border-radius:2px; margin-right:3px; color:#FFFFFF; }
 .header13Menu .navbar-nav > li > a:hover,.header13Menu .navbar-nav > li > a:focus { color:#000000; background-color:#C0C0C0; background-image:none; }
 .header13Menu .navbar-nav > li > a.active,.header13Menu .navbar-nav > li > a.active:hover,.header13Menu .navbar-nav > li > a.active:focus { color:#000000; background-color:#C0C0C0; background-image:none; }
