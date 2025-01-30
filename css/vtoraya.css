@@ -393,6 +393,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #team4Image1 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
 #wb_team4Image2 { margin:0 0 30px 0; vertical-align:top; }
 #team4Image2 { border:0px solid #000000; border-radius:0px; box-sizing:border-box; padding:0; display:block; width:100%; height:auto; max-width:800px; margin-left:auto; margin-right:auto; vertical-align:top; }
+#team4Image2:hover { box-shadow:5px 5px 5px #ff0000; transition:box-shadow 500ms linear 0ms; }
 #wb_team4Heading4 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:10px 0 10px 0; text-align:left; }
 #team4Heading4 { color:#969696; font-family:Arial; font-weight:bold; font-style:normal; font-size:27px; margin:0; text-align:left; text-transform:none; }
 #wb_team4Text2 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0 0 20px 0; margin:0; text-align:left; }
