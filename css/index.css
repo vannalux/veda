@@ -378,9 +378,9 @@ body { background-color:transparent; color:#000000; font-family:Arial; font-weig
 #Carousel1 .carousel-control:hover .carousel-control-prev-icon { background:url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFF00%22%20viewBox%3d%220%200%20120%20120%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M37%2054%20C35%2056%2c%2034%2058%2c%2034%2060%20L34%2060%20L34%2060%20C34%2062%2c%2035%2063%2c%2037%2065%20L74%20102%20L74%20102%20C76%20104%2c%2077%20105%2c%2079%20105%20C82%20105%2c%2083%20104%2c%2085%20102%20C86%20101%2c%2087%2099%2c%2087%2097%20C87%2095%2c%2086%2093%2c%2085%2092%20L53%2060%20L53%2060%20L85%2027%20L85%2027%20C86%2026%2c%2087%2024%2c%2087%2022%20C87%2020%2c%2086%2018%2c%2085%2017%20C83%2015%2c%2082%2015%2c%2079%2015%20C77%2015%2c%2076%2015%2c%2074%2017%20L37%2054Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center; }
 #Carousel1 .carousel-control-next-icon { background:url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%20120%20120%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M84%2054%20C86%2056%2c%2086%2058%2c%2086%2060%20L86%2060%20L86%2060%20C86%2062%2c%2086%2063%2c%2084%2065%20L47%20102%20L47%20102%20C45%20104%2c%2044%20105%2c%2041%20105%20C39%20105%2c%2038%20104%2c%2036%20102%20C35%20101%2c%2034%2099%2c%2034%2097%20C34%2095%2c%2035%2093%2c%2036%2092%20L68%2060%20L68%2060%20L36%2027%20L36%2027%20C35%2026%2c%2034%2024%2c%2034%2022%20C34%2020%2c%2035%2018%2c%2036%2017%20C38%2015%2c%2039%2015%2c%2041%2015%20C44%2015%2c%2045%2015%2c%2047%2017%20L84%2054Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center; }
 #Carousel1 .carousel-control:hover .carousel-control-next-icon { background:url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFF00%22%20viewBox%3d%220%200%20120%20120%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M84%2054%20C86%2056%2c%2086%2058%2c%2086%2060%20L86%2060%20L86%2060%20C86%2062%2c%2086%2063%2c%2084%2065%20L47%20102%20L47%20102%20C45%20104%2c%2044%20105%2c%2041%20105%20C39%20105%2c%2038%20104%2c%2036%20102%20C35%20101%2c%2034%2099%2c%2034%2097%20C34%2095%2c%2035%2093%2c%2036%2092%20L68%2060%20L68%2060%20L36%2027%20L36%2027%20C35%2026%2c%2034%2024%2c%2034%2022%20C34%2020%2c%2035%2018%2c%2036%2017%20C38%2015%2c%2039%2015%2c%2041%2015%20C44%2015%2c%2045%2015%2c%2047%2017%20L84%2054Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center; }
-#Carousel1 .frame-1 { background-color:transparent; background-image:url('../images/pexels-horizon-content-3738736.jpg'); background-repeat:repeat; background-position:left top; background-size:cover; }
+#Carousel1 .frame-1 { background-color:transparent; background-image:url('../images/pexels%2dhorizon%2dcontent%2d3738736.jpg'); background-repeat:repeat; background-position:left top; background-size:cover; }
 #Carousel1 .frame-2 { background-color:transparent; background-image:url('../images/seeds.jpg'); background-repeat:repeat; background-position:center center; background-size:cover; }
-#Carousel1 .frame-3 { background-color:transparent; background-image:url('../images/pexels-pixabay-262978.jpg'); background-repeat:repeat; background-position:center center; background-size:cover; }
+#Carousel1 .frame-3 { background-color:transparent; background-image:url('../images/pexels%2dpixabay%2d262978.jpg'); background-repeat:repeat; background-position:center center; background-size:cover; }
 @keyframes Carousel1-animation-show {
 0% { transform:translateX(100%); }
 100% { transform:translateX(0); }
@@ -416,15 +416,11 @@ body { background-color:transparent; color:#000000; font-family:Arial; font-weig
 @media (max-width: 768px) {
 #ThreeColumns > .row > .col-1,#ThreeColumns > .row > .col-2,#ThreeColumns > .row > .col-3 { float:none; width:100%; }
 }
-#wb_Text5 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0 0 10px 0; margin:0; text-align:left; }
+#wb_Text5 { background-color:transparent; background-image:none; border:3px dashed #FFA500; border-radius:8px; padding:11px 11px 11px 11px; margin:0; text-align:left; }
 #wb_Text5 div { text-align:left; }
+#wb_Text5:hover { border-top-color:#FF0000; border:solid #FF0000 10px; border-radius:8px 44px 8px 44px; transition:border-top-color 500ms linear 0ms, border 500ms linear 0ms, border-radius 500ms linear 0ms; }
+#wb_Text5 { transition:all 500ms linear 0ms; }
 #wb_Text5 { display:block; margin:0; box-sizing:border-box; width:100%; }
-#wb_Text6 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0 0 10px 0; margin:0; text-align:left; }
-#wb_Text6 div { text-align:left; }
-#wb_Text6 { display:block; margin:0; box-sizing:border-box; width:100%; }
-#wb_Text7 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0 0 10px 0; margin:0; text-align:left; }
-#wb_Text7 div { text-align:left; }
-#wb_Text7 { display:block; margin:0; box-sizing:border-box; width:100%; }
 #wb_Heading2 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0 0 10px 0; text-align:center; }
 #Heading2 { color:#8B4513; font-family:Arial; font-weight:bold; font-style:normal; font-size:24px; margin:0; text-align:center; text-transform:none; }
 #wb_Heading3 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0 0 10px 0; text-align:center; }
@@ -445,7 +441,7 @@ body { background-color:transparent; color:#000000; font-family:Arial; font-weig
 @media (max-width: 768px) {
 #LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { width:100%; grid-column:span 12; }
 }
-#wb_LayoutGrid5 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price-akril.webp'); background-repeat:repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
+#wb_LayoutGrid5 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price%2dakril.webp'); background-repeat:repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #LayoutGrid5 { box-sizing:border-box; padding:55px 30px 55px 30px; margin-right:auto; margin-left:auto; }
 #LayoutGrid5 > .row { margin-right:-30px; margin-left:-30px; }
 #LayoutGrid5 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:30px; padding-left:30px; position:relative; }
@@ -503,7 +499,7 @@ body { background-color:transparent; color:#000000; font-family:Arial; font-weig
 #wb_Text10 { display:block; margin:0; box-sizing:border-box; width:100%; }
 #wb_Heading7 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0 0 15px 0; padding:0; text-align:center; }
 #Heading7 { color:#8B4513; font-family:"PT Sans Narrow"; font-weight:normal; font-style:normal; font-size:37px; margin:0; text-align:center; text-transform:none; }
-#wb_LayoutGrid7 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price-emalirovka.webp'); background-repeat:repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
+#wb_LayoutGrid7 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price%2demalirovka.webp'); background-repeat:repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #LayoutGrid7 { box-sizing:border-box; padding:55px 30px 55px 30px; margin-right:auto; margin-left:auto; }
 #LayoutGrid7 > .row { margin-right:-30px; margin-left:-30px; }
 #LayoutGrid7 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:30px; padding-left:30px; position:relative; }
@@ -624,6 +620,16 @@ body { background-color:transparent; color:#000000; font-family:Arial; font-weig
 #team2Card3-card-item6 a { color:inherit; display:block; padding:10px 10px 10px 10px; text-decoration:none; }
 #team2Card3-card-item6 i { margin-right:0px; text-align:center; vertical-align:top; font-size:21px; width:21px; }
 #team2Card3-card-item7 { box-sizing:border-box; margin:10px 0 10px 0; border-top:1px rgba(255,255,255,0.00) solid; border-width:1px 0 0 0; height:0; line-height:0; }
+#wb_Text15 { background-color:transparent; background-image:none; border:3px dashed #FFA500; border-radius:8px; padding:11px 11px 11px 11px; margin:0; text-align:left; }
+#wb_Text15 div { text-align:left; }
+#wb_Text15:hover { border-top-color:#FF0000; border:solid #FF0000 10px; border-radius:8px 44px 8px 44px; transition:border-top-color 500ms linear 0ms, border 500ms linear 0ms, border-radius 500ms linear 0ms; }
+#wb_Text15 { transition:all 500ms linear 0ms; }
+#wb_Text15 { display:block; margin:0; box-sizing:border-box; width:100%; }
+#wb_Text6 { background-color:transparent; background-image:none; border:3px dashed #FFA500; border-radius:8px; padding:11px 11px 11px 11px; margin:0; text-align:left; }
+#wb_Text6 div { text-align:left; }
+#wb_Text6:hover { border-top-color:#FF0000; border:solid #FF0000 10px; border-radius:8px 44px 8px 44px; transition:border-top-color 500ms linear 0ms, border 500ms linear 0ms, border-radius 500ms linear 0ms; }
+#wb_Text6 { transition:all 500ms linear 0ms; }
+#wb_Text6 { display:block; margin:0; box-sizing:border-box; width:100%; }
 #wb_footer13LayoutGrid1 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:#2F3337; background-image:none; border:0px solid #233140; border-radius:0px; box-sizing:border-box; margin:55px 0 0 0; }
 #footer13LayoutGrid1 { box-sizing:border-box; padding:0; margin-right:auto; margin-left:auto; }
 #footer13LayoutGrid1 > .row { margin-right:0; margin-left:0; }
